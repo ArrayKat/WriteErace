@@ -1,0 +1,75 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Design.PreviewWith>
+	  <Border Padding="20">
+		  <StackPanel>
+			  <TextBlock Text="Пример TextBlock" />
+			  <Button Content="Пример Button" />
+			  <TextBox Text="Пример TextBox" />
+			  <ListBox>
+				  <ListBoxItem Content="Элемент 1" />
+				  <ListBoxItem Content="Элемент 2" />
+				  <Border >
+					  <ListBoxItem Content="Элемент 3" />
+				  </Border>
+			  </ListBox>
+
+		  </StackPanel>
+	  </Border>
+  </Design.PreviewWith>
+
+	<Style Selector="TextBlock">
+		<Setter Property="FontFamily" Value="Comic Sans MS"/>
+		<Setter Property="Foreground" Value="Black"/>
+		<Setter Property="FontSize" Value="16" />
+		<Setter Property="Padding" Value="0,5"/>
+	</Style>
+
+	<Style Selector="Button">
+
+		<Setter Property="FontFamily" Value="Comic Sans MS"/>
+		<Setter Property="Background" Value="#498C51"/>
+		<Setter Property="Foreground" Value="White"/>
+		<Setter Property="BorderThickness" Value="0"/>
+		<Setter Property="Padding" Value="10,5"/>
+	</Style>
+
+	<Style Selector="TextBox">
+
+		<Setter Property="FontFamily" Value="Comic Sans MS"/>
+		<Setter Property="Background" Value="#FFFFFF"/>
+		<Setter Property="BorderBrush" Value="#498C51"/>
+		<Setter Property="BorderThickness" Value="2"/>
+		<Setter Property="Padding" Value="5"/>
+		<Setter Property="Margin" Value="0,7"/>
+	</Style>
+	<Style Selector="NumericUpDown">
+		<Setter Property="FontFamily" Value="Comic Sans MS"/>
+		<Setter Property="Background" Value="#FFFFFF"/>
+		<Setter Property="BorderBrush" Value="#76E383"/>
+		<Setter Property="BorderThickness" Value="2"/>
+		<Setter Property="Padding" Value="5"/>
+		<Setter Property="Margin" Value="0,7"/>
+	</Style>
+	<Style Selector="ComboBox">
+		<Setter Property="FontFamily" Value="Comic Sans MS"/>
+		<Setter Property="Background" Value="#FFFFFF"/>
+		<Setter Property="BorderBrush" Value="#76E383"/>
+		<Setter Property="BorderThickness" Value="2"/>
+		<Setter Property="Padding" Value="5"/>
+		<Setter Property="Margin" Value="0,7"/>
+	</Style>
+	<Style Selector="ListBox">
+		<Setter Property="FontFamily" Value="Comic Sans MS"/>
+		<Setter Property="Background" Value="#76E383"/>
+		<Setter Property="Margin" Value="0,7"/>
+	</Style>
+	<Style Selector="ListBoxItem">
+		<Setter Property="FontFamily" Value="Comic Sans MS"/>
+		<Setter Property="Background" Value="Transparent"/>
+		<Setter Property="Padding" Value="5"/>
+		<Setter Property="Foreground" Value="#76E383" />
+		<Setter Property="Margin" Value="5,0"/>
+	</Style>
+
+</Styles>

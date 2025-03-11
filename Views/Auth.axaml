@@ -1,0 +1,25 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="WriteErace.Auth"
+			 xmlns:vm ="using:WriteErace.ViewModels"
+			 x:DataType="vm:AuthVM">
+	
+	<Border Margin="100" Background="#76E383" CornerRadius="10" BorderThickness="2" BorderBrush="#498C51">
+		<StackPanel>
+			<TextBlock Text="Авторизация" FontWeight="Bold" FontSize="26" HorizontalAlignment="Center" Margin="5" Foreground="#498C51"/>
+			<TextBox Watermark="Логин" Text="{Binding Login}" IsEnabled="{Binding IsEnabledTB}" Margin="10" HorizontalAlignment="Stretch"/>
+			<TextBox Watermark="Пароль" IsEnabled="{Binding IsEnabledTB}" Text="{Binding Password}" Margin="10" HorizontalAlignment="Stretch"/>
+			<StackPanel IsVisible="{Binding IsVisibleCaptcha}">
+				<UserControl Content="{Binding Captcha}"/>
+				
+				<TextBox Watermark="Капча" IsEnabled="{Binding IsEnabledTB}" Text="{Binding CaptchaStr}" Margin="10" HorizontalAlignment="Stretch"/>
+			</StackPanel>
+			<Button Content="Войти" Command="{Binding GoPageListProductsAsync}" Margin="10" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"/>
+			<Button Content="Войти как гость" Command="{Binding GoPageListProducts}" Margin="10" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"/>
+		</StackPanel>
+	</Border>
+	
+</UserControl>
