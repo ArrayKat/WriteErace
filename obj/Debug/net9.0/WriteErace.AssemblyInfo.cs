@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WriteErace")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6ad2d9b7b83185a34e76bae28ec7ea89433adc7")]
 [assembly: System.Reflection.AssemblyProductAttribute("WriteErace")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WriteErace")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

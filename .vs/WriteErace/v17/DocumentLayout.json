@@ -3,28 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Katya\\source\\repos\\WriteErace\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|c:\\users\\katya\\source\\repos\\writeerace\\views\\listproducts.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|solutionrelative:views\\listproducts.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|c:\\users\\katya\\source\\repos\\writeerace\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|solutionrelative:views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|c:\\users\\katya\\source\\repos\\writeerace\\viewmodels\\listproductsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|solutionrelative:viewmodels\\listproductsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|c:\\users\\katya\\source\\repos\\writeerace\\assets\\styles.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|solutionrelative:assets\\styles.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|c:\\users\\katya\\source\\repos\\writeerace\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|solutionrelative:viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|c:\\users\\katya\\source\\repos\\writeerace\\views\\auth.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|solutionrelative:views\\auth.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|c:\\users\\katya\\source\\repos\\writeerace\\viewmodels\\authvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|solutionrelative:viewmodels\\authvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|c:\\users\\katya\\source\\repos\\writeerace\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|solutionrelative:app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|c:\\users\\katya\\source\\repos\\writeerace\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|solutionrelative:viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|c:\\users\\katya\\source\\repos\\writeerace\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|solutionrelative:app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|c:\\users\\katya\\source\\repos\\writeerace\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|c:\\users\\katya\\source\\repos\\writeerace\\viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|solutionrelative:viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|c:\\users\\katya\\source\\repos\\writeerace\\viewmodels\\listorderspagevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|solutionrelative:viewmodels\\listorderspagevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|c:\\users\\katya\\source\\repos\\writeerace\\views\\orderpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|solutionrelative:views\\orderpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|c:\\users\\katya\\source\\repos\\writeerace\\viewmodels\\ordervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|solutionrelative:viewmodels\\ordervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|c:\\users\\katya\\source\\repos\\writeerace\\views\\listorderspage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|solutionrelative:views\\listorderspage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|c:\\users\\katya\\source\\repos\\writeerace\\another\\pdfticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB40AEC-F84B-46EC-AA46-5C7556667114}|WriteErace.csproj|solutionrelative:another\\pdfticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 217,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,77 +82,153 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Styles.axaml",
-              "DocumentMoniker": "C:\\Users\\Katya\\source\\repos\\WriteErace\\Assets\\Styles.axaml",
-              "RelativeDocumentMoniker": "Assets\\Styles.axaml",
-              "ToolTip": "C:\\Users\\Katya\\source\\repos\\WriteErace\\Assets\\Styles.axaml",
-              "RelativeToolTip": "Assets\\Styles.axaml",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\Katya\\source\\repos\\WriteErace\\Views\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "Views\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\Katya\\source\\repos\\WriteErace\\Views\\MainWindow.axaml",
+              "RelativeToolTip": "Views\\MainWindow.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-11T18:39:10.552Z",
+              "WhenOpened": "2025-03-13T20:38:03.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ListProductsVM.cs",
-              "DocumentMoniker": "C:\\Users\\Katya\\source\\repos\\WriteErace\\ViewModels\\ListProductsVM.cs",
-              "RelativeDocumentMoniker": "ViewModels\\ListProductsVM.cs",
-              "ToolTip": "C:\\Users\\Katya\\source\\repos\\WriteErace\\ViewModels\\ListProductsVM.cs",
-              "RelativeToolTip": "ViewModels\\ListProductsVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T18:20:03.144Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ListProducts.axaml",
-              "DocumentMoniker": "C:\\Users\\Katya\\source\\repos\\WriteErace\\Views\\ListProducts.axaml",
-              "RelativeDocumentMoniker": "Views\\ListProducts.axaml",
-              "ToolTip": "C:\\Users\\Katya\\source\\repos\\WriteErace\\Views\\ListProducts.axaml",
-              "RelativeToolTip": "Views\\ListProducts.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-11T17:24:19.423Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "MainWindowViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Katya\\source\\repos\\WriteErace\\ViewModels\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\MainWindowViewModel.cs",
               "ToolTip": "C:\\Users\\Katya\\source\\repos\\WriteErace\\ViewModels\\MainWindowViewModel.cs",
               "RelativeToolTip": "ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T17:12:08.784Z",
+              "WhenOpened": "2025-03-13T20:37:59.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthVM.cs",
-              "DocumentMoniker": "C:\\Users\\Katya\\source\\repos\\WriteErace\\ViewModels\\AuthVM.cs",
-              "RelativeDocumentMoniker": "ViewModels\\AuthVM.cs",
-              "ToolTip": "C:\\Users\\Katya\\source\\repos\\WriteErace\\ViewModels\\AuthVM.cs",
-              "RelativeToolTip": "ViewModels\\AuthVM.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAIAxwDsAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T10:46:23.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Auth.axaml",
               "DocumentMoniker": "C:\\Users\\Katya\\source\\repos\\WriteErace\\Views\\Auth.axaml",
               "RelativeDocumentMoniker": "Views\\Auth.axaml",
               "ToolTip": "C:\\Users\\Katya\\source\\repos\\WriteErace\\Views\\Auth.axaml",
               "RelativeToolTip": "Views\\Auth.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-11T10:42:53.944Z",
+              "WhenOpened": "2025-03-13T20:37:57.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\Users\\Katya\\source\\repos\\WriteErace\\app.manifest",
+              "RelativeDocumentMoniker": "app.manifest",
+              "ToolTip": "C:\\Users\\Katya\\source\\repos\\WriteErace\\app.manifest",
+              "RelativeToolTip": "app.manifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2025-03-13T20:35:23.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ViewLocator.cs",
+              "DocumentMoniker": "C:\\Users\\Katya\\source\\repos\\WriteErace\\ViewLocator.cs",
+              "RelativeDocumentMoniker": "ViewLocator.cs",
+              "ToolTip": "C:\\Users\\Katya\\source\\repos\\WriteErace\\ViewLocator.cs",
+              "RelativeToolTip": "ViewLocator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T20:35:37.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Katya\\source\\repos\\WriteErace\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Katya\\source\\repos\\WriteErace\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T20:35:33.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.axaml",
+              "DocumentMoniker": "C:\\Users\\Katya\\source\\repos\\WriteErace\\App.axaml",
+              "RelativeDocumentMoniker": "App.axaml",
+              "ToolTip": "C:\\Users\\Katya\\source\\repos\\WriteErace\\App.axaml",
+              "RelativeToolTip": "App.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-13T20:35:27.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ListOrdersPageVM.cs",
+              "DocumentMoniker": "C:\\Users\\Katya\\source\\repos\\WriteErace\\ViewModels\\ListOrdersPageVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ListOrdersPageVM.cs",
+              "ToolTip": "C:\\Users\\Katya\\source\\repos\\WriteErace\\ViewModels\\ListOrdersPageVM.cs",
+              "RelativeToolTip": "ViewModels\\ListOrdersPageVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAlwCsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T20:27:36.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PDFTicket.cs",
+              "DocumentMoniker": "C:\\Users\\Katya\\source\\repos\\WriteErace\\Another\\PDFTicket.cs",
+              "RelativeDocumentMoniker": "Another\\PDFTicket.cs",
+              "ToolTip": "C:\\Users\\Katya\\source\\repos\\WriteErace\\Another\\PDFTicket.cs",
+              "RelativeToolTip": "Another\\PDFTicket.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowEAAAACWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T20:22:49.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ListOrdersPage.axaml",
+              "DocumentMoniker": "C:\\Users\\Katya\\source\\repos\\WriteErace\\Views\\ListOrdersPage.axaml",
+              "RelativeDocumentMoniker": "Views\\ListOrdersPage.axaml",
+              "ToolTip": "C:\\Users\\Katya\\source\\repos\\WriteErace\\Views\\ListOrdersPage.axaml",
+              "RelativeToolTip": "Views\\ListOrdersPage.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-13T20:22:01.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderVM.cs",
+              "DocumentMoniker": "C:\\Users\\Katya\\source\\repos\\WriteErace\\ViewModels\\OrderVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\OrderVM.cs",
+              "ToolTip": "C:\\Users\\Katya\\source\\repos\\WriteErace\\ViewModels\\OrderVM.cs",
+              "RelativeToolTip": "ViewModels\\OrderVM.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwC4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T20:16:43.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderPage.axaml",
+              "DocumentMoniker": "C:\\Users\\Katya\\source\\repos\\WriteErace\\Views\\OrderPage.axaml",
+              "RelativeDocumentMoniker": "Views\\OrderPage.axaml",
+              "ToolTip": "C:\\Users\\Katya\\source\\repos\\WriteErace\\Views\\OrderPage.axaml",
+              "RelativeToolTip": "Views\\OrderPage.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-13T20:16:41.09Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,92 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="WriteErace.ListOrdersPage"
+			 xmlns:vm ="using:WriteErace.ViewModels"
+			 x:DataType="vm:ListOrdersPageVM"
+			 xmlns:image ="using:WriteErace.Converters">
+
+	<UserControl.Resources>
+		<image:ImageConverter x:Key="ImageConv"></image:ImageConverter>
+	</UserControl.Resources>
+
+
+	<Grid RowDefinitions="0.3*,0.7* , 5*"  HorizontalAlignment="Stretch">
+		<Grid ColumnDefinitions="4*,*">
+			<StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
+				<Button Content="Назад" Command="{Binding GoBack}"  HorizontalAlignment="Left" Margin="10 0"/>
+			</StackPanel>
+			<TextBlock  Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right" Text="{Binding FioUser}"  Margin="50 0">
+				<TextBlock.ContextMenu>
+					<ContextMenu>
+						<MenuItem Header="Выйти" Command="{Binding GoBackAuth}"/>
+					</ContextMenu>
+				</TextBlock.ContextMenu>
+			</TextBlock>
+		</Grid>
+
+		<StackPanel Orientation="Vertical" Grid.Row="1" >
+			<StackPanel  Orientation="Horizontal" HorizontalAlignment="Center">
+				<ComboBox ItemsSource="{Binding SortValue}" SelectedIndex="{Binding SortValueId}" Margin="7"/>
+				<ComboBox ItemsSource="{Binding FilterValue}" SelectedIndex="{Binding FilterValueID}" Margin="7"/>
+			</StackPanel>
+			<TextBlock HorizontalAlignment="Center">
+				<TextBlock.Text>
+					<MultiBinding StringFormat=" {0} из {1}">
+						<Binding Path="CountCurrentRecords"/>
+						<Binding Path="CountAllRecords"/>
+					</MultiBinding>
+				</TextBlock.Text>
+			</TextBlock>
+		</StackPanel>
+		
+		<ListBox ItemsSource="{Binding ShowOrders}" Grid.Row="2">
+			<ListBox.ItemTemplate>
+				<DataTemplate>
+					<Border BorderThickness="3" BorderBrush="#498C51">
+						<Grid ColumnDefinitions="*,*" Background="{Binding ColorOrder}">
+							<StackPanel Grid.Column="0">
+								<TextBlock Text="{Binding IdClientNavigation.FIO, StringFormat=' Заказчик: {0}'}"/>
+								<TextBlock Text="{Binding Id, StringFormat=' Номер заказа: {0}'}"/>
+								<TextBlock Text="{Binding Code, StringFormat=' Код заказа: {0}'}"/>
+								<TextBlock Text="{Binding DateOrder, StringFormat=' Дата заказа: {0}'}"/>
+								<TextBlock Text="{Binding DateDelivery, StringFormat=' Дата доставки: {0}'}"/>
+								<TextBlock Text="{Binding IdAddressNavigation.Name, StringFormat=' Пункт выдачи: {0}'}"/>
+								
+								<TextBlock Text="{Binding TotalSumm, StringFormat=' Сумма заказа: {0} р.'}"/>
+								<TextBlock Text="{Binding TotalDiscount, StringFormat=' Общая скидка: {0} %'}"/>
+								<TextBlock Text="{Binding TotalSummDiscount, StringFormat=' Общая сумма скидки: {0} р.'}"/>
+								<TextBlock Text="{Binding IdStatusNavigation.Name, StringFormat=' Статус заказа: {0}'}"/>
+								
+							</StackPanel>
+							<StackPanel Grid.Column="1">
+								<TextBlock Text="Состав заказа:"/>
+								<ItemsRepeater Margin="10,0,0,0" ItemsSource="{Binding OrderProducts}">
+									<ItemsRepeater.ItemTemplate>
+										<DataTemplate>
+											<StackPanel Orientation="Horizontal">
+												<TextBlock>
+													<TextBlock.Text>
+														<MultiBinding StringFormat=" - {0} {1} {2}">
+															<Binding Path="ArticleProductsNavigation.NameProducts"/>
+															<Binding Path="CountProducts"/>
+															<Binding Path="ArticleProductsNavigation.Unit"/>
+														</MultiBinding>
+													</TextBlock.Text>
+												</TextBlock>
+											</StackPanel>
+										</DataTemplate>
+									</ItemsRepeater.ItemTemplate>
+								</ItemsRepeater>
+							</StackPanel>
+						</Grid>
+					</Border>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+
+		</ListBox>
+	</Grid>
+	
+</UserControl>

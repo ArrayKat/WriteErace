@@ -5,16 +5,84 @@
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="WriteErace.ListProducts"
 			 xmlns:vm ="using:WriteErace.ViewModels"
-			 x:DataType="vm:ListProductsVM">
+			 x:DataType="vm:ListProductsVM"
+			 xmlns:image ="using:WriteErace.Converters">
 
+	<UserControl.Resources>
+		<image:ImageConverter x:Key="ImageConv"></image:ImageConverter>
+	</UserControl.Resources>
 
-	<ListBox ItemsSource="{Binding Products}">
-		<ListBox.ItemTemplate>
-			<DataTemplate>
-				<StackPanel>
-					<TextBlock Text="{Binding NameProducts}"/>
-				</StackPanel>
-			</DataTemplate>
-		</ListBox.ItemTemplate>
-	</ListBox>
+	<Grid RowDefinitions="0.3*,0.7* , 5*"  HorizontalAlignment="Stretch">
+		<Grid ColumnDefinitions="4*,*">
+			<StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
+				<Button Content="Посмотреть список заказов" Command="{Binding GoPageListOrders}"  HorizontalAlignment="Left"  IsVisible="{Binding IsVisibleListOrders}"  Margin="10 0"/>
+				<Button Content="Посмотреть заказ" Command="{Binding AddOrder}" HorizontalAlignment="Left"  IsVisible="{Binding IsVisibleBtnOrders}"/>
+			</StackPanel>
+			<TextBlock  Grid.Row="0" Grid.Column="1" HorizontalAlignment="Right" Text="{Binding FioUser}"  Margin="50 0">
+				<TextBlock.ContextMenu>
+					<ContextMenu>
+						<MenuItem Header="Выйти" Command="{Binding GoBack}"/>
+					</ContextMenu>
+				</TextBlock.ContextMenu>
+			</TextBlock>
+		</Grid>
+		<StackPanel Orientation="Vertical" Grid.Row="1" >
+			<StackPanel  Orientation="Horizontal" HorizontalAlignment="Center">
+				<TextBox Watermark="Введите название товара" Text="{Binding Search}" Height="40" Width="250" Margin="7"/>
+				<ComboBox ItemsSource="{Binding SortValue}" SelectedIndex="{Binding SortValueId}" Margin="7"/>
+				<ComboBox ItemsSource="{Binding FilterValue}" SelectedIndex="{Binding FilterValueID}" Margin="7"/>
+			</StackPanel>
+			<TextBlock HorizontalAlignment="Center">
+				<TextBlock.Text>
+					<MultiBinding StringFormat=" {0} из {1}">
+						<Binding Path="CountCurrentRecords"/>
+						<Binding Path="CountAllRecords"/>
+					</MultiBinding>
+				</TextBlock.Text>
+			</TextBlock>
+		</StackPanel>
+		
+		<ListBox ItemsSource="{Binding Products}" Grid.Row="2">
+			<ListBox.ItemTemplate>
+				<DataTemplate>
+					<Border BorderThickness="3" BorderBrush="#498C51">
+						<Grid ColumnDefinitions="*,2*,*" Background="{Binding Color}">
+							<Image Grid.Column="0" Source="{Binding Image, Converter={StaticResource ImageConv}}" Height="150" Width="150"/>
+							<StackPanel Grid.Column="1">
+								<TextBlock Text="{Binding NameProducts}" FontWeight="Bold"/>
+								<TextBlock Text="{Binding Description}"/>
+								<TextBlock>
+									<TextBlock.Text>
+										<MultiBinding StringFormat="Производитель: {0}">
+											<Binding Path="IdManufacturerNavigation.Name"/>
+										</MultiBinding>
+									</TextBlock.Text>
+								</TextBlock>
+								<StackPanel Orientation="Horizontal">
+									<TextBlock Text="Цена: "/>
+									<TextBlock Text="{Binding Cost}" IsVisible="{Binding IsVisibleCost}" TextDecorations="Strikethrough"/>
+									<TextBlock Text="{Binding TotalCost}" Margin="10 0"/>
+								</StackPanel>
+							</StackPanel>
+							<TextBlock Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+								<TextBlock.Text>
+									<MultiBinding StringFormat=" {0}%">
+										<Binding Path="CurrentDiscount"/>
+									</MultiBinding>
+								</TextBlock.Text>
+							</TextBlock>
+							<Grid.ContextMenu>
+								<ContextMenu>
+									<MenuItem Header="Добавить к заказу" Command="{Binding $parent[UserControl].((vm:ListProductsVM)DataContext).AddProductToOrder}" CommandParameter="{Binding}"/>
+								</ContextMenu>
+							</Grid.ContextMenu>
+						</Grid>
+					</Border>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+			
+		</ListBox>
+	</Grid>
+	
+	
 </UserControl>

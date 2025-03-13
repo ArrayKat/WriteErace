@@ -54,21 +54,19 @@
 	<Style Selector="ComboBox">
 		<Setter Property="FontFamily" Value="Comic Sans MS"/>
 		<Setter Property="Background" Value="#FFFFFF"/>
-		<Setter Property="BorderBrush" Value="#76E383"/>
+		<Setter Property="BorderBrush" Value="#498C51"/>
 		<Setter Property="BorderThickness" Value="2"/>
 		<Setter Property="Padding" Value="5"/>
 		<Setter Property="Margin" Value="0,7"/>
 	</Style>
 	<Style Selector="ListBox">
 		<Setter Property="FontFamily" Value="Comic Sans MS"/>
-		<Setter Property="Background" Value="#76E383"/>
 		<Setter Property="Margin" Value="0,7"/>
 	</Style>
 	<Style Selector="ListBoxItem">
 		<Setter Property="FontFamily" Value="Comic Sans MS"/>
 		<Setter Property="Background" Value="Transparent"/>
 		<Setter Property="Padding" Value="5"/>
-		<Setter Property="Foreground" Value="#76E383" />
 		<Setter Property="Margin" Value="5,0"/>
 	</Style>
 

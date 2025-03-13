@@ -1,0 +1,89 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="WriteErace.OrderPage"			 xmlns:vm ="using:WriteErace.ViewModels"
+			 x:DataType="vm:OrderVM"
+			 xmlns:image ="using:WriteErace.Converters">
+
+	<UserControl.Resources>
+		<image:ImageConverter x:Key="ImageConv"></image:ImageConverter>
+	</UserControl.Resources>
+
+	<Grid ColumnDefinitions="*, 5*">
+		<StackPanel Grid.Column="0" Orientation="Vertical">
+			<Button Command="{Binding GoBack}" Content="Назад" Margin="10"/>
+			<ComboBox SelectedItem="{Binding ObjAdress}" ItemsSource="{Binding Adresses}">
+				<ComboBox.ItemTemplate>
+					<DataTemplate>
+						<TextBlock Text="{Binding Name}"/>
+					</DataTemplate>
+				</ComboBox.ItemTemplate>
+			</ComboBox>
+			<TextBlock Text="{Binding SummOrder, StringFormat=' Сумма заказа: {0} р.'}"/>
+			<TextBlock Text="{Binding SummDiscount, StringFormat=' Сумма скидки: {0} р.'}"/>
+			<TextBlock Text="{Binding TotalSummOrder, StringFormat=' Итого: {0} р.'}"  FontWeight="Bold"/>
+			<Button Command="{Binding CreateOrder}" Content="Сформировать заказ" Margin="10"/>
+		</StackPanel>
+
+		<ListBox ItemsSource="{Binding ListProduct}" Grid.Column="1">
+			<ListBox.ItemTemplate>
+				<DataTemplate>
+					<Border BorderThickness="3" BorderBrush="#498C51">
+						<Grid ColumnDefinitions="*,2*,*" Background="{Binding ArticleProductsNavigation.Color}">
+							<Image Grid.Column="0" Source="{Binding ArticleProductsNavigation.Image, Converter={StaticResource ImageConv}}" Height="150" Width="150"/>
+							<StackPanel Grid.Column="1">
+								<TextBlock Text="{Binding ArticleProductsNavigation.NameProducts}" FontWeight="Bold"/>
+								<TextBlock Text="{Binding ArticleProductsNavigation.Description}"/>
+								<TextBlock>
+									<TextBlock.Text>
+										<MultiBinding StringFormat="Производитель: {0}">
+											<Binding Path="ArticleProductsNavigation.IdManufacturerNavigation.Name"/>
+										</MultiBinding>
+									</TextBlock.Text>
+								</TextBlock>
+								
+								<TextBlock>
+									<TextBlock.Text>
+										<MultiBinding StringFormat="Максимальная скидка: {0}%">
+											<Binding Path="ArticleProductsNavigation.MaxDiscount"/>
+										</MultiBinding>
+									</TextBlock.Text>
+								</TextBlock>
+								
+								<TextBlock >
+									<TextBlock.Text>
+										<MultiBinding StringFormat="Текущая скидка: {0}%">
+											<Binding Path="ArticleProductsNavigation.CurrentDiscount"/>
+										</MultiBinding>
+									</TextBlock.Text>
+								</TextBlock>
+								
+								<StackPanel Orientation="Horizontal">
+									<TextBlock Text="Цена: "/>
+									<TextBlock Text="{Binding ArticleProductsNavigation.Cost}" IsVisible="{Binding ArticleProductsNavigation.IsVisibleCost}" TextDecorations="Strikethrough"/>
+									<TextBlock Text="{Binding ArticleProductsNavigation.TotalCost}" Margin="10 0"/>
+								</StackPanel>
+
+								<StackPanel Orientation="Horizontal">
+									<NumericUpDown  Value="{Binding CountProducts}" Width="100" FormatString="0" Margin="7"/>
+									<Button Content="Удалить товар из заказа" Margin="7" Command="{Binding $parent[UserControl].((vm:OrderVM)DataContext).DeleteProduct}" CommandParameter="{Binding }"/>
+								</StackPanel>
+								
+							</StackPanel>
+							
+							<Grid.ContextMenu>
+								<ContextMenu>
+									<MenuItem Header="Добавить к заказу" Command=""/>
+								</ContextMenu>
+							</Grid.ContextMenu>
+						</Grid>
+					</Border>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+
+		</ListBox>
+	</Grid>
+
+</UserControl>

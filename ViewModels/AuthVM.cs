@@ -54,12 +54,13 @@ namespace WriteErace.ViewModels
         }
 
         public async Task GoPageListProductsAsync() {
-            if (CheckData()) MainWindowViewModel.Instance.PageContent = new ListProducts();
+            
+            if (CheckData()) MainWindowViewModel.Instance.PageContent = new ListProducts(_currentUser.Id);
             else await MessageBoxManager.GetMessageBoxStandard("Сообщение", "Проверьте логин или пароль", ButtonEnum.Ok).ShowAsync();
         }
         public void GoPageListProducts()
         {
-           MainWindowViewModel.Instance.PageContent = new ListProducts();
+           MainWindowViewModel.Instance.PageContent = new ListProducts(0);
         }
 
 

@@ -7,9 +7,9 @@ namespace WriteErace;
 
 public partial class ListProducts : UserControl
 {
-    public ListProducts()
+    public ListProducts(int idUser)
     {
         InitializeComponent();
-        DataContext = new ListProductsVM();
+        DataContext = new ListProductsVM(idUser);
     }
 }

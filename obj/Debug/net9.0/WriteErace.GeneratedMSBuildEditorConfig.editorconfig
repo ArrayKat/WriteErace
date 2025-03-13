@@ -35,8 +35,14 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [C:/Users/Katya/source/repos/WriteErace/Views/Auth.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[C:/Users/Katya/source/repos/WriteErace/Views/ListOrdersPage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Users/Katya/source/repos/WriteErace/Views/ListProducts.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/Katya/source/repos/WriteErace/Views/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Katya/source/repos/WriteErace/Views/OrderPage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
