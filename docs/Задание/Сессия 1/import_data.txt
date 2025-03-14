@@ -1,0 +1,507 @@
+INSERT INTO public.roles
+(id, "name")
+VALUES(1, 'Клиент');
+INSERT INTO public.roles
+(id, "name")
+VALUES(2, 'Администратор');
+INSERT INTO public.roles
+(id, "name")
+VALUES(3, 'Менеджер');
+
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(1, 'Никифоров', 'Всеволод', 'Иванович', 'loginDEjrm2018', 'Cpb+Im', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(2, 'Воронов', 'Донат', 'Никитевич', 'loginDEpxl2018', 'P6h4Jq', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(3, 'Игнатьева', 'Евгения', 'Валентиновна', 'loginDEwgk2018', '&mfI9l', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(4, 'Буров', 'Федот', 'Егорович', 'loginDEpou2018', 'gX3f5Z', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(5, 'Иван', 'Семёновна', '', 'loginDEjwl2018', 'D4ZYHt', 3);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(6, 'Денисов', 'Дамир', 'Филатович', 'loginDEabf2018', '*Tasm+', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(7, 'Ершов', 'Максим', 'Геласьевич', 'loginDEwjm2018', 'k}DJKo', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(8, 'Копылов', 'Куприян', 'Пётрович', 'loginDEjvz2018', '&|bGTy', 3);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(9, 'Носов', 'Валерьян', 'Дмитрьевич', 'loginDEuyv2018', '8hhrZ}', 3);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(10, 'Силин', 'Игорь', 'Авдеевич', 'loginDExdm2018', 'DH68L9', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(11, 'Дроздова', 'Александра', 'Мартыновна', 'loginDEeiv2018', 'H*BxlS', 3);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(12, 'Дроздов', 'Аркадий', 'Геласьевич', 'loginDEfuc2018', 'VuM+QT', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(13, 'Боброва', 'Варвара', 'Евсеевна', 'loginDEoot2018', 'usi{aT', 3);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(14, 'Чернова', 'Агата', 'Данииловна', 'loginDElhk2018', 'Okk0jY', 3);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(15, 'Лыткина', 'Ульяна', 'Станиславовна', 'loginDEazg2018', 's3bb|V', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(16, 'Лаврентьев', 'Леонид', 'Игнатьевич', 'loginDEaba2018', '#ИМЯ?', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(17, 'Кулаков', 'Юрий', 'Владленович', 'loginDEtco2018', 'tTKDJB', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(18, 'Соловьёв', 'Андрей', 'Александрович', 'loginDEsyq2018', '2QbpBN', 3);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(19, 'Корнилова', 'Марфа', 'Макаровна', 'loginDEpxi2018', '+5X&hy', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(20, 'Белоусова', 'Любовь', 'Георгьевна', 'loginDEicr2018', '3+|Sn{', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(21, 'Анисимов', 'Никита', 'Гордеевич', 'loginDEcui2018', 'Zi1Tth', 3);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(22, 'Стрелкова', 'Фаина', 'Федосеевна', 'loginDEpxc2018', 'G+nFsv', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(23, 'Осипов', 'Евгений', 'Иванович', 'loginDEqrd2018', 'sApUbt', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(24, 'Владимирова', 'Иванна', 'Павловна', 'loginDEsso2018', '#ИМЯ?', 3);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(25, 'Кудрявцева', 'Жанна', 'Демьяновна', 'loginDErsy2018', '{Aa6nS', 3);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(26, 'Матвиенко', 'Яков', 'Брониславович', 'loginDEvpz2018', 'mS0UxK', 3);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(27, 'Селезнёв', 'Егор', 'Артёмович', 'loginDEfog2018', 'glICay', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(28, 'Брагин', 'Куприян', 'Митрофанович', 'loginDEpii2018', 'Ob}RZB', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(29, 'Гордеев', 'Виктор', 'Эдуардович', 'loginDEhyk2018', '*gN}Tc', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(30, 'Мартынов', 'Онисим', 'Брониславович', 'loginDEdxi2018', 'ywLUbA', 3);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(31, 'Никонова', 'Евгения', 'Павловна', 'loginDEzro2018', 'B24s6o', 3);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(32, 'Полякова', 'Анна', 'Денисовна', 'loginDEuxg2018', 'K8jui7', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(33, 'Макарова', 'Пелагея', 'Антониновна', 'loginDEllw2018', 'jNtNUr', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(34, 'Андреева', 'Анна', 'Вячеславовна', 'loginDEddg2018', 'gGGhvD', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(35, 'Кудрявцева', 'Кира', 'Ефимовна', 'loginDEpdz2018', '#ИМЯ?', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(36, 'Шилова', 'Кира', 'Егоровна', 'loginDEyiw2018', 'cnj3QR', 3);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(37, 'Ситников', 'Игорь', 'Борисович', 'loginDEqup2018', '95AU|R', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(38, 'Русаков', 'Борис', 'Христофорович', 'loginDExil2018', 'w+++Ht', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(39, 'Капустина', 'Ульяна', 'Игоревна', 'loginDEkuv2018', 'Ade++|', 3);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(40, 'Беляков', 'Семён', 'Германнович', 'loginDEmox2018', 'Je}9e7', 3);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(41, 'Гурьев', 'Ириней', 'Игнатьевич', 'loginDEvug2018', 'lEa{Cn', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(42, 'Мишин', 'Христофор', 'Леонидович', 'loginDEzre2018', 'N*VX+G', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(43, 'Лазарева', 'Антонина', 'Христофоровна', 'loginDEbes2018', 'NaVtyH', 3);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(44, 'Маркова', 'Ираида', 'Сергеевна', 'loginDEkfg2018', 'r1060q', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(45, 'Носкова', 'Пелагея', 'Валерьевна', 'loginDEyek2018', 'KY2BL4', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(46, 'Баранов', 'Станислав', 'Дмитрьевич', 'loginDEloq2018', 'NZV5WR', 2);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(47, 'Ефремов', 'Демьян', 'Артёмович', 'loginDEjfb2018', 'TNT+}h', 3);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(48, 'Константинов', 'Всеволод', 'Мэлсович', 'loginDEueq2018', 'GqAUZ6', 3);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(49, 'Ситникова', 'Ираида', 'Андреевна', 'loginDEpqz2018', 'F0Bp7F', 3);
+INSERT INTO public.users
+(id, surname, "name", patronymic, login, "password", id_role)
+VALUES(50, 'Матвеев', 'Кондрат', 'Иванович', 'loginDEovk2018', 'JyJM{A', 2);
+
+INSERT INTO public.manufacturer
+(id, "name")
+VALUES(1, 'Pilot');
+INSERT INTO public.manufacturer
+(id, "name")
+VALUES(2, 'Attache');
+INSERT INTO public.manufacturer
+(id, "name")
+VALUES(3, 'Unimax');
+INSERT INTO public.manufacturer
+(id, "name")
+VALUES(4, 'FLEXOFFICE CANDEE');
+INSERT INTO public.manufacturer
+(id, "name")
+VALUES(5, 'Svetocopy');
+INSERT INTO public.manufacturer
+(id, "name")
+VALUES(6, 'Hatber');
+INSERT INTO public.manufacturer
+(id, "name")
+VALUES(7, 'Erich Krause');
+INSERT INTO public.manufacturer
+(id, "name")
+VALUES(8, 'Комус');
+INSERT INTO public.manufacturer
+(id, "name")
+VALUES(9, 'GoodMark');
+
+INSERT INTO public.supplier
+(id, "name")
+VALUES(1, 'Комус');
+INSERT INTO public.supplier
+(id, "name")
+VALUES(2, 'Буквоед');
+
+INSERT INTO public.category
+(id, "name")
+VALUES(1, 'Школьные пренадлежности');
+INSERT INTO public.category
+(id, "name")
+VALUES(2, 'Для офиса');
+INSERT INTO public.category
+(id, "name")
+VALUES(3, 'Бумага офисная');
+INSERT INTO public.category
+(id, "name")
+VALUES(4, 'Тетради школьные');
+
+INSERT INTO public.status
+(id, "name")
+VALUES(1, 'Новый ');
+INSERT INTO public.status
+(id, "name")
+VALUES(2, 'Завершен');
+
+INSERT INTO public.address
+(id, "name")
+VALUES(1, '344288, г. Тихорецк, ул. Чехова, 1');
+INSERT INTO public.address
+(id, "name")
+VALUES(2, '614164, г.Тихорецк, ул. Степная, 30');
+INSERT INTO public.address
+(id, "name")
+VALUES(3, '394242, г. Тихорецк, ул. Коммунистическая, 43');
+INSERT INTO public.address
+(id, "name")
+VALUES(4, '660540, г. Тихорецк, ул. Солнечная, 25');
+INSERT INTO public.address
+(id, "name")
+VALUES(5, '125837, г. Тихорецк, ул. Шоссейная, 40');
+INSERT INTO public.address
+(id, "name")
+VALUES(6, '125703, г. Тихорецк, ул. Партизанская, 49');
+INSERT INTO public.address
+(id, "name")
+VALUES(7, '625283, г. Тихорецк, ул. Победы, 46');
+INSERT INTO public.address
+(id, "name")
+VALUES(8, '614611, г. Тихорецк, ул. Молодежная, 50');
+INSERT INTO public.address
+(id, "name")
+VALUES(9, '454311, г.Тихорецк, ул. Новая, 19');
+INSERT INTO public.address
+(id, "name")
+VALUES(10, '660007, г.Тихорецк, ул. Октябрьская, 19');
+INSERT INTO public.address
+(id, "name")
+VALUES(11, '603036, г. Тихорецк, ул. Садовая, 4');
+INSERT INTO public.address
+(id, "name")
+VALUES(12, '450983, г.Тихорецк, ул. Комсомольская, 26');
+INSERT INTO public.address
+(id, "name")
+VALUES(13, '394782, г. Тихорецк, ул. Чехова, 3');
+INSERT INTO public.address
+(id, "name")
+VALUES(14, '603002, г. Тихорецк, ул. Дзержинского, 28');
+INSERT INTO public.address
+(id, "name")
+VALUES(15, '450558, г. Тихорецк, ул. Набережная, 30');
+INSERT INTO public.address
+(id, "name")
+VALUES(16, '394060, г.Тихорецк, ул. Фрунзе, 43');
+INSERT INTO public.address
+(id, "name")
+VALUES(17, '410661, г. Тихорецк, ул. Школьная, 50');
+INSERT INTO public.address
+(id, "name")
+VALUES(18, '625590, г. Тихорецк, ул. Коммунистическая, 20');
+INSERT INTO public.address
+(id, "name")
+VALUES(19, '625683, г. Тихорецк, ул. 8 Марта');
+INSERT INTO public.address
+(id, "name")
+VALUES(20, '400562, г. Тихорецк, ул. Зеленая, 32');
+INSERT INTO public.address
+(id, "name")
+VALUES(21, '614510, г. Тихорецк, ул. Маяковского, 47');
+INSERT INTO public.address
+(id, "name")
+VALUES(22, '410542, г. Тихорецк, ул. Светлая, 46');
+INSERT INTO public.address
+(id, "name")
+VALUES(23, '620839, г. Тихорецк, ул. Цветочная, 8');
+INSERT INTO public.address
+(id, "name")
+VALUES(24, '443890, г. Тихорецк, ул. Коммунистическая, 1');
+INSERT INTO public.address
+(id, "name")
+VALUES(25, '603379, г. Тихорецк, ул. Спортивная, 46');
+INSERT INTO public.address
+(id, "name")
+VALUES(26, '603721, г. Тихорецк, ул. Гоголя, 41');
+INSERT INTO public.address
+(id, "name")
+VALUES(27, '410172, г. Тихорецк, ул. Северная, 13');
+INSERT INTO public.address
+(id, "name")
+VALUES(28, '420151, г. Тихорецк, ул. Вишневая, 32');
+INSERT INTO public.address
+(id, "name")
+VALUES(29, '125061, г. Тихорецк, ул. Подгорная, 8');
+INSERT INTO public.address
+(id, "name")
+VALUES(30, '630370, г. Тихорецк, ул. Шоссейная, 24');
+INSERT INTO public.address
+(id, "name")
+VALUES(31, '614753, г. Тихорецк, ул. Полевая, 35');
+INSERT INTO public.address
+(id, "name")
+VALUES(32, '426030, г. Тихорецк, ул. Маяковского, 44');
+INSERT INTO public.address
+(id, "name")
+VALUES(33, '450375, г. Тихорецк ул. Клубная, 44');
+INSERT INTO public.address
+(id, "name")
+VALUES(34, '625560, г. Тихорецк, ул. Некрасова, 12');
+INSERT INTO public.address
+(id, "name")
+VALUES(35, '630201, г. Тихорецк, ул. Комсомольская, 17');
+INSERT INTO public.address
+(id, "name")
+VALUES(36, '190949, г. Тихорецк, ул. Мичурина, 26');
+
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('А112Т4', 'Ручка шариковая', 'шт.', 12, 30, 2, 1, 4, 2.3, 6, 'Ручка шариковая с синими чернилами,толщина стержня 7 мм', 'А112Т4.jpg');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('A346R4', 'Ручка шариковая автоматическая', 'шт.', 35, 20, 2, 1, 4, 3, 23, 'Ручка шариковая автоматическая с синими чернилами, диаметр шарика 0,9 мм', 'A346R4.jpg');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('T564P5', 'Набор шариковых ручек одноразовых', 'уп.', 50, 15, 2, 1, 4, 9, 5, 'Набор шариковых ручек одноразовых Attache Economy Spinner 10 цветов (толщина линии 0.5 мм)', 'T564P5.jpg');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('B730E2', 'Ручка шариковая', 'шт.', 41, 10, 7, 1, 4, 3, 45, 'Ручка шариковая одноразовая автоматическая Unimax Fab GP синяя (толщина линии 0.5 мм)', 'B730E2.jpg');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('G278R6', 'Ручка шариковая', 'шт.', 15, 30, 2, 2, 2, 7, 23, 'Ручка шариковая FLEXOFFICE CANDEE 0,6 мм, синяя', 'G278R6.png');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('R259E6', 'Бумага офисная', 'уп.', 299, 25, 5, 2, 3, 4, 32, 'Бумага офисная Svetocopy NEW A4 80г 500л', 'R259E6.jpg');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('H452A3', 'Тетрадь', 'шт.', 10, 8, 2, 2, 4, 3, 25, 'Тетрадь, 24 листа, Зелёная обложка Hatber/Хатбер, офсет, клетка с полями', 'H452A3.png');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('A543T6', 'Ручка шариковая', 'шт.', 13, 30, 2, 2, 2, 6, 12, 'Ручка шариковая Erich Krause, R-301 ORANGE 0.7 Stick, синий', 'A543T6.jpg');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('F719R5', 'Папка-скоросшиватель', 'шт.', 18, 20, 2, 2, 2, 3, 8, 'Папка-скоросшиватель, А4 Hatber/Хатбер 140/180мкм АССОРТИ, пластиковая с перфорацией прозрачный верх', 'F719R5.jpg');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('D419T7', 'Клей-карандаш', 'шт.', 61, 18, 2, 2, 2, 4, 26, 'Клей-карандаш Erich Krause 15 гр.', 'D419T7.png');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('N592T4', 'Стикеры', 'уп.', 34, 15, 2, 1, 2, 2, 17, 'Стикеры Attache 76x76 мм пастельные желтые (1 блок, 100 листов)', '');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('N459R6', 'Стикеры', 'уп.', 194, 25, 2, 1, 2, 3, 9, 'Стикеры Attache Selection 51х51 мм неоновые 5 цветов (1 блок, 250 листов)', '');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('S276E6', 'Скрепки', 'уп.', 46, 30, 8, 1, 2, 2, 14, 'Скрепки Комус металлические никелированные 33 мм (100 штук в упаковке)', '');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('S453G7', 'Скрепки', 'уп.', 21, 15, 2, 1, 2, 4, 20, 'Скрепки 28 мм Attache металлические (100 штук в упаковке)', '');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('J539R3', 'Кнопки', 'уп.', 96, 20, 8, 1, 2, 3, 24, 'Кнопки канцелярские Комус металлические цветные (50 штук в упаковке)', '');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('Z539E3', 'Лента клейкая', 'шт.', 16, 15, 2, 2, 2, 2, 14, 'Лента клейкая 12мм*33м прозрачная, Hatber/Хатбер', '');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('A297U6', 'Ручка гелевая', 'шт.', 52, 20, 2, 2, 4, 4, 18, 'Ручка гелевая ErichKrause® G-Cube®, цвет чернил черный', '');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('A567R4', 'Ручка шариковая', 'шт.', 64, 30, 2, 2, 4, 2, 32, 'Шариковая ручка PILOT SuperGrip 0,7 мм синяя BPGP-10R-F-L', '');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('K932R4', 'Корректирующая лента', 'шт.', 70, 25, 2, 2, 2, 3, 16, 'Корректор лента 5мм*4м, блистер, GoodMark', '');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('K345R5', 'Корректирующая лента', 'шт.', 87, 20, 2, 1, 2, 3, 12, 'Корректирующая лента Attache Economy 5 мм x 5 м', '');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('K753R3', 'Корректирующая жидкость', 'шт.', 50, 30, 2, 1, 4, 2, 5, 'Корректирующая жидкость (штрих) Attache быстросохнущая 20 мл', '');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('S563T6', 'Степлер', 'шт.', 231, 25, 2, 1, 2, 4, 17, 'Степлер Attache 8215 до 25 листов черный', '');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('S425T6', 'Скобы', 'уп.', 25, 20, 2, 1, 2, 2, 16, 'Скобы для степлера №24/6 Attache оцинкованные (1000 штук в упаковке)', '');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('A340R5', 'Маркер', 'шт.', 66, 15, 2, 2, 2, 4, 27, 'Маркер перманентный GoodMark 2-х сторонний.для СD/DVD черный', '');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('A384T5', 'Тетрадь', 'уп.', 87, 20, 2, 2, 4, 3, 23, 'Тетрадь, 18 листов, А5 линейка Hatber/Хатбер Серия Зеленая 10шт в блистере', '');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('K502T9', 'Карандаш-корректор', 'шт.', 70, 25, 2, 2, 2, 2, 7, 'Карандаш-корректор GoodMark, морозостойкий, 8мл, металлический наконечник', '');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('S512T7', 'Скобы', 'уп.', 25, 15, 2, 2, 2, 3, 32, 'Скобы №10 1000шт, к/к, GoodMark', '');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('D367R4', 'Клей ПВА', 'шт.', 26, 20, 2, 2, 4, 4, 16, 'Клей ПВА 85г Hatber/Хатбер', '');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('M892R4', 'Ножницы', 'шт.', 209, 15, 2, 1, 4, 5, 13, 'Ножницы 195 мм Attache с пластиковыми прорезиненными анатомическими ручками бирюзового/черного цвета', '');
+INSERT INTO public.products
+(article, name_products, unit, "cost", max_discount, id_manufacturer, id_supplier, id_category, current_discount, count, description, image)
+VALUES('Z390R4', 'Лента клейкая', 'шт.', 195, 20, 8, 1, 2, 2, 9, 'Клейкая лента упаковочная Комус 50 мм x 100 м 50 мкм прозрачная', '');
+
+INSERT INTO public.orders
+(id, date_order, date_delivery, id_address, fio_client, code, id_status)
+VALUES(1, '2022-05-18', '2022-05-24', 3, 'Высоцкая Майя Давидовна', 311, 1);
+INSERT INTO public.orders
+(id, date_order, date_delivery, id_address, fio_client, code, id_status)
+VALUES(2, '2022-05-19', '2022-05-25', 4, 'Агеев Дамир Давидович', 312, 2);
+INSERT INTO public.orders
+(id, date_order, date_delivery, id_address, fio_client, code, id_status)
+VALUES(3, '2022-05-20', '2022-05-26', 5, '', 313, 1);
+INSERT INTO public.orders
+(id, date_order, date_delivery, id_address, fio_client, code, id_status)
+VALUES(4, '2022-05-21', '2022-05-27', 6, '', 314, 1);
+INSERT INTO public.orders
+(id, date_order, date_delivery, id_address, fio_client, code, id_status)
+VALUES(5, '2022-05-22', '2022-05-28', 7, '', 315, 2);
+INSERT INTO public.orders
+(id, date_order, date_delivery, id_address, fio_client, code, id_status)
+VALUES(6, '2022-05-23', '2022-05-29', 10, '', 316, 1);
+INSERT INTO public.orders
+(id, date_order, date_delivery, id_address, fio_client, code, id_status)
+VALUES(7, '2022-05-24', '2022-05-30', 11, '', 317, 1);
+INSERT INTO public.orders
+(id, date_order, date_delivery, id_address, fio_client, code, id_status)
+VALUES(8, '2022-05-25', '2022-05-31', 20, 'Терентьев Филипп Богданович', 318, 1);
+INSERT INTO public.orders
+(id, date_order, date_delivery, id_address, fio_client, code, id_status)
+VALUES(9, '2022-05-26', '2022-06-01', 30, 'Голубева Лея Петровна', 319, 1);
+INSERT INTO public.orders
+(id, date_order, date_delivery, id_address, fio_client, code, id_status)
+VALUES(10, '2022-05-27', '2022-06-02', 33, '', 320, 1);
+
+INSERT INTO public.order_products
+(id, id_order, article_products, count_products)
+VALUES(1, 1, 'А112Т4', 10);
+INSERT INTO public.order_products
+(id, id_order, article_products, count_products)
+VALUES(2, 2, 'A346R4', 10);
+INSERT INTO public.order_products
+(id, id_order, article_products, count_products)
+VALUES(3, 3, 'B730E2', 10);
+INSERT INTO public.order_products
+(id, id_order, article_products, count_products)
+VALUES(4, 4, 'H452A3', 10);
+INSERT INTO public.order_products
+(id, id_order, article_products, count_products)
+VALUES(5, 5, 'F719R5', 1);
+INSERT INTO public.order_products
+(id, id_order, article_products, count_products)
+VALUES(6, 6, 'N459R6', 2);
+INSERT INTO public.order_products
+(id, id_order, article_products, count_products)
+VALUES(7, 7, 'J539R3', 20);
+INSERT INTO public.order_products
+(id, id_order, article_products, count_products)
+VALUES(8, 8, 'A567R4', 5);
+INSERT INTO public.order_products
+(id, id_order, article_products, count_products)
+VALUES(9, 9, 'K753R3', 1);
+INSERT INTO public.order_products
+(id, id_order, article_products, count_products)
+VALUES(10, 10, 'S425T6', 5);
+INSERT INTO public.order_products
+(id, id_order, article_products, count_products)
+VALUES(11, 1, 'R259E6', 2);
+INSERT INTO public.order_products
+(id, id_order, article_products, count_products)
+VALUES(12, 2, 'T564P5', 1);
+INSERT INTO public.order_products
+(id, id_order, article_products, count_products)
+VALUES(13, 3, 'G278R6', 10);
+INSERT INTO public.order_products
+(id, id_order, article_products, count_products)
+VALUES(14, 4, 'A543T6', 10);
+INSERT INTO public.order_products
+(id, id_order, article_products, count_products)
+VALUES(15, 5, 'D419T7', 1);
+INSERT INTO public.order_products
+(id, id_order, article_products, count_products)
+VALUES(16, 6, 'S276E6', 15);
+INSERT INTO public.order_products
+(id, id_order, article_products, count_products)
+VALUES(17, 7, 'Z539E3', 1);
+INSERT INTO public.order_products
+(id, id_order, article_products, count_products)
+VALUES(18, 8, 'K932R4', 1);
+INSERT INTO public.order_products
+(id, id_order, article_products, count_products)
+VALUES(19, 9, 'S563T6', 1);
+INSERT INTO public.order_products
+(id, id_order, article_products, count_products)
+VALUES(20, 10, 'A340R5', 3);

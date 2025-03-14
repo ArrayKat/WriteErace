@@ -65,30 +65,48 @@ namespace WriteErace.ViewModels
 
 
         public bool CheckData() {
-            if (_countCheckData == 0) { 
-                _currentUser = Users.FirstOrDefault(x => x.Password.Contains(Password) && x.Login.Contains(Login));
-                if (_currentUser != null)
+            if (_countCheckData == 0)
+            {
+                try
                 {
-                    return true;
-                }
-                else {
+                    _currentUser = Users.FirstOrDefault(x => x.Password == Password && x.Login == Login);
+                    if (_currentUser != null)
+                    {
+                        return true;
+                    }
+                    else
+                    {
 
-                    IsVisibleCaptcha = true;
-                    CreateCaptcha();
-                    _countCheckData++;
+                        IsVisibleCaptcha = true;
+                        CreateCaptcha();
+                        _countCheckData++;
+                        return false;
+                    }
+                }
+                catch (Exception ex) {
                     return false;
-                } 
+                }
             }
             else if (_countCheckData >=1)
             {
                 IsVisibleCaptcha = true;
-                _currentUser = Users.FirstOrDefault(x => x.Password.Contains(Password) && x.Login.Contains(Login));
-                if (_currentUser != null && CaptchaStr == _strCaptchaGenerated)
+                try
                 {
-                    return true;
+                    _currentUser = Users.FirstOrDefault(x => x.Password == Password && x.Login == Login);
+                    if (_currentUser != null && CaptchaStr == _strCaptchaGenerated)
+                    {
+                        return true;
+                    }
+                    else
+                    {
+                        IsEnabledTB = false;
+                        CreateCaptcha();
+                        _countCheckData++;
+                        timer.Start();
+                        return false;
+                    }
                 }
-                else
-                {
+                catch {
                     IsEnabledTB = false;
                     CreateCaptcha();
                     _countCheckData++;
